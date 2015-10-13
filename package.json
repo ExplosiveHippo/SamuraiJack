@@ -1,0 +1,9 @@
+{
+  "name": "SamuraiJack",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-sass": "^2.0.4"
+  }
+}
