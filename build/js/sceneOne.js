@@ -1,4 +1,10 @@
 window.onload = function(){
-    var logo = document.getElementById("castles");
-    TweenLite.to(logo, 5, {bottom:"-90px", left:"-130px", width: "1650px", ease:Expo.easeOut});
+    var castle = document.getElementById("castles");
+    var water = document.getElementById("water");
+    var treeLeft = document.getElementById("treeLeft");
+    var treeRight = document.getElementById("treeRight");
+    TweenLite.to(castle, 7, {bottom:"-170px", left:"100px", width: "1100px", ease:Expo.easeOut}).delay(2);
+    TweenLite.to(water, 5, {opacity:"0.5", bottom:"-170px", left:"300px", width: "900px", ease:Expo.easeOut}).delay(2);
+    TweenLite.to(treeLeft, 5, {left:"-100px", ease:Expo.easeOut}).delay(2);
+    TweenLite.to(treeRight, 5, {right:"-600px", width: "800px", ease:Expo.easeOut}).delay(2);
 }

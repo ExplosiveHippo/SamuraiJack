@@ -11,6 +11,27 @@ html {
 
 #castles {
   position: absolute;
-  bottom: -1000px;
+  bottom: -300px;
+  left: 500px;
+  width: 700px;
+  z-index: 0; }
+
+#water {
+  z-index: 10;
+  position: absolute;
+  bottom: -100px;
   left: 100px;
-  width: 1400px; }
+  opacity: 1; }
+
+#treeLeft, #treeRight {
+  z-index: 5; }
+
+#treeLeft {
+  position: absolute;
+  left: -10px;
+  bottom: 0; }
+
+#treeRight {
+  position: absolute;
+  right: -10px;
+  bottom: 0; }
