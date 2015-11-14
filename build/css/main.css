@@ -3,22 +3,22 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  overflow-x: hidden; }
 
-#scene {
-  height: 100px;
-  display: block; }
+.stage {
+  height: 6000px; }
 
 #castles {
-  position: absolute;
-  bottom: -300px;
+  position: fixed;
+  bottom: -100px;
   left: 500px;
   width: 700px;
   z-index: 0; }
 
 #water {
   z-index: 10;
-  position: absolute;
+  position: fixed;
   bottom: -100px;
   left: 100px;
   opacity: 1; }
@@ -27,11 +27,11 @@ html {
   z-index: 5; }
 
 #treeLeft {
-  position: absolute;
+  position: fixed;
   left: -10px;
   bottom: 0; }
 
 #treeRight {
-  position: absolute;
+  position: fixed;
   right: -10px;
   bottom: 0; }
